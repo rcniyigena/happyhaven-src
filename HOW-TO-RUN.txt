@@ -1,0 +1,13 @@
+How to run Happy Haven locally
+
+Requirements: Node.js 20+ (or Bun). npm is included with Node.
+
+  cd happyhaven-redesign
+  npm install
+  npm run dev
+
+Then open http://localhost:5173 (the port is printed in the terminal).
+
+Other commands:
+  npm run build      production build (outputs to dist/)
+  npm run preview    serve the production build locally
